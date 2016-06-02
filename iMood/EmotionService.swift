@@ -9,20 +9,20 @@
 import UIKit
 
 class EmotionService: IMWebService {
-    
+        
     init () {
+        
+        //we really shouldnt hard code this..
         let url: NSURL = NSURL(string: "https://api.projectoxford.ai/emotion/v1.0/")!
-        super.init(url: url, key: "18485643de4642338bd4402ca625a5e3")
+        super.init(url: url, key: "1a9db96e3aa64b0bb04e6fe787a19690")
     }
     
-    func recognize (imageData: NSData) {
-        sendRequest(imageData, method: "recognize") { (error, response) -> Void in
-            
+    func recognize (imageData: NSData, closure: webServiceClosure) {
+        sendUploadRequest(imageData, methodString: "Recognize") { (error, response) in
+            closure (error: error, response: response as! NSArray)
         }
-    }
-    
-    func sendRequest(dataToSend: NSData, method: String, completion: webServiceClosure) {
         
     }
+
     
 }

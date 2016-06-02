@@ -39,6 +39,8 @@ class IMImageSourceAlertController: UIAlertController {
         case .Unspecified:
             // WTF is this thing???!!!!
             break;
+        default:
+            break;
         }
     }
     
@@ -51,8 +53,12 @@ class IMImageSourceAlertController: UIAlertController {
         let optionsSheet: UIAlertController = UIAlertController(title: "Select Option:", message: "", preferredStyle: UIAlertControllerStyle.ActionSheet)
         let cameraAction: UIAlertAction = UIAlertAction(title: "Take Photo", style: .Default, handler: {(alert: UIAlertAction!) in
             
-            if (!UIImagePickerController.isCameraDeviceAvailable(imagePicker.cameraDevice)) {
+            if (!UIImagePickerController.isSourceTypeAvailable(.Camera)) {
                 let noCameraAlert: UIAlertController = UIAlertController(title: "Oops", message: "Your device does not have a camera", preferredStyle: UIAlertControllerStyle.Alert)
+                let dismiss: UIAlertAction = UIAlertAction(title: "Dismiss", style: .Default, handler: {(alert: UIAlertAction!) in
+                    noCameraAlert .dismissViewControllerAnimated(true, completion: nil)
+                })
+                noCameraAlert.addAction(dismiss)
                 presentingController.presentViewController(noCameraAlert, animated: true, completion: nil)
             }else{
                 imagePicker.sourceType = .Camera

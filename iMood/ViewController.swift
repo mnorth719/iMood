@@ -11,7 +11,8 @@ import UIKit
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
-    var emotionFace:IMFace = IMFace()
+    var faceImage:IMMoodImage = IMMoodImage()
+    var faces:[IMFace]?
     @IBOutlet weak var selectedImage: UIImageView!
     @IBOutlet weak var noPhotoSelectedLabel: UILabel!
     
@@ -33,19 +34,33 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     
     func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage, editingInfo: [String : AnyObject]?) {
-        emotionFace.faceImage = image
+        faceImage.image = image
         noPhotoSelectedLabel.hidden = true
         selectedImage.contentMode = .ScaleAspectFit
         selectedImage.image = image
+        faceImage.rawImageData = UIImageJPEGRepresentation(image, 0.0)
+        
+        picker .dismissViewControllerAnimated(true, completion: nil)
         
         //make call to MS
-//        emotionFace.determineEmotion { (error, response) -> Void in
-//            
-//        }
+        // Mock this for now
+        faceImage.determineEmotion { [unowned self] (error, faceArray) -> Void in
+            
+            self.faces = faceArray
+            //Bind this to ViewModel some how. 
+            self .performSegueWithIdentifier("imageDetailControllerSegue", sender: self)
+        }
     }
     
     func imagePickerControllerDidCancel(picker: UIImagePickerController) {
         picker.dismissViewControllerAnimated(true) { () -> Void in
+        }
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if (segue.identifier == "imageDetailControllerSegue") {
+            let destination: IMFaceDetailsController = segue.destinationViewController as! IMFaceDetailsController
+            destination.faces = self.faces
         }
     }
 

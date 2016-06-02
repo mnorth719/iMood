@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="crk-Ij-Vce">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="9w7-Bm-GyE">
+            <objects>
+                <navigationController id="crk-Ij-Vce" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LoQ-Zh-ezE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ejY-ki-2xF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IDD-Rj-v2w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-108" y="375"/>
+        </scene>
+        <!--Select Image Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iMood" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="iMood" id="BYZ-38-t0r" userLabel="Select Image Controller" customClass="ViewController" customModule="iMood" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -18,7 +35,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tbu-IX-40d">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="483"/>
+                                <rect key="frame" x="0.0" y="64" width="600" height="419"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCa-1Y-LD2">
                                 <rect key="frame" x="255" y="496" width="90" height="90"/>
@@ -42,26 +59,88 @@
                                 <color key="highlightedColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.70237936948143664" green="0.91620555383738367" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tbu-IX-40d" secondAttribute="bottom" constant="117" id="AIh-57-2h2"/>
                             <constraint firstAttribute="bottom" secondItem="hCa-1Y-LD2" secondAttribute="bottom" constant="14" id="BUa-iw-lGl"/>
                             <constraint firstItem="A5d-BG-I3G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fjz-M0-DM3"/>
                             <constraint firstItem="tbu-IX-40d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="H7w-dH-WzS"/>
-                            <constraint firstItem="tbu-IX-40d" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="JmL-qr-Btm"/>
+                            <constraint firstItem="tbu-IX-40d" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="64" id="JmL-qr-Btm"/>
                             <constraint firstItem="hCa-1Y-LD2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PYA-W2-jTn"/>
                             <constraint firstAttribute="trailing" secondItem="tbu-IX-40d" secondAttribute="trailing" id="cIT-Ur-FZN"/>
                             <constraint firstItem="A5d-BG-I3G" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="198" id="szS-p4-nR2"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="iMood" id="pMJ-MB-beJ"/>
                     <connections>
                         <outlet property="noPhotoSelectedLabel" destination="A5d-BG-I3G" id="WBd-OM-p9j"/>
                         <outlet property="selectedImage" destination="tbu-IX-40d" id="FLq-Dj-Ffo"/>
+                        <segue destination="7dr-ET-Uk6" kind="showDetail" identifier="imageDetailControllerSegue" id="m1n-9q-w1X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="834" y="523"/>
+            <point key="canvasLocation" x="653" y="375"/>
+        </scene>
+        <!--Image Detail Controller-->
+        <scene sceneID="wze-zG-9G5">
+            <objects>
+                <viewController id="7dr-ET-Uk6" userLabel="Image Detail Controller" customClass="IMFaceDetailsController" customModule="iMood" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xnf-BH-XJG"/>
+                        <viewControllerLayoutGuide type="bottom" id="4MA-7C-C8o"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hLA-jP-Y7t">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KEk-tq-CyW" customClass="IMFaceImageView" customModule="iMood" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="600" height="419"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ECc-xN-CWg" customClass="IMMoodView" customModule="iMood" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="484" width="600" height="116"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Q3S-Rt-PfB">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="116"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Q3S-Rt-PfB" secondAttribute="trailing" id="KPE-gy-OBe"/>
+                                    <constraint firstAttribute="width" secondItem="ECc-xN-CWg" secondAttribute="height" multiplier="150:29" id="KbF-S3-Vax"/>
+                                    <constraint firstItem="Q3S-Rt-PfB" firstAttribute="leading" secondItem="ECc-xN-CWg" secondAttribute="leading" id="NFZ-sS-9U2"/>
+                                    <constraint firstAttribute="bottom" secondItem="Q3S-Rt-PfB" secondAttribute="bottom" id="eAt-cO-rHl"/>
+                                    <constraint firstItem="Q3S-Rt-PfB" firstAttribute="top" secondItem="ECc-xN-CWg" secondAttribute="top" id="qEG-uW-biy"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.70237936950000002" green="0.91620555380000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ECc-xN-CWg" firstAttribute="leading" secondItem="hLA-jP-Y7t" secondAttribute="leading" id="Cpn-C0-5I0"/>
+                            <constraint firstAttribute="trailing" secondItem="KEk-tq-CyW" secondAttribute="trailing" id="L2F-5U-hsZ"/>
+                            <constraint firstAttribute="trailing" secondItem="ECc-xN-CWg" secondAttribute="trailing" id="SFA-c5-9on"/>
+                            <constraint firstAttribute="bottom" secondItem="ECc-xN-CWg" secondAttribute="bottom" id="aEb-CJ-qwC"/>
+                            <constraint firstItem="KEk-tq-CyW" firstAttribute="leading" secondItem="hLA-jP-Y7t" secondAttribute="leading" id="b5o-uO-l2K"/>
+                            <constraint firstItem="KEk-tq-CyW" firstAttribute="top" secondItem="hLA-jP-Y7t" secondAttribute="top" constant="64" id="wJD-Zt-5nZ"/>
+                            <constraint firstAttribute="bottom" secondItem="KEk-tq-CyW" secondAttribute="bottom" constant="117" id="yac-P4-fJ7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="iMood" id="Fsy-oc-Tjz">
+                        <barButtonItem key="backBarButtonItem" title="New Photo" id="5Kj-2S-puJ"/>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="faceImage" destination="KEk-tq-CyW" id="xjR-4M-Erp"/>
+                        <outlet property="moodText" destination="Q3S-Rt-PfB" id="Zo9-Mu-gLj"/>
+                        <outlet property="moodView" destination="ECc-xN-CWg" id="Duv-ac-Aba"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zyk-3f-Xrd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1422" y="375"/>
         </scene>
     </scenes>
     <resources>
