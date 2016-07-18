@@ -22,7 +22,7 @@
 		2278ACA21CE2CECF00E3AFF4 /* IMHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278ACA11CE2CECF00E3AFF4 /* IMHttpClient.swift */; };
 		2278ACA71CE3063000E3AFF4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2278ACA61CE3063000E3AFF4 /* Alamofire.framework */; };
 		22A5D6AE1CF7A3C500E77A5A /* IMMoodImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5D6AD1CF7A3C500E77A5A /* IMMoodImage.swift */; };
-		22ACC6551D3356EE00F57D17 /* MCCastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ACC6541D3356EE00F57D17 /* MCCastManager.swift */; };
+		22BE6D641D3C779F00FDBF67 /* MCCastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE6D631D3C779F00FDBF67 /* MCCastManager.swift */; };
 		22D85E311CD7FAD600F49A5B /* IMFaceImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D85E301CD7FAD600F49A5B /* IMFaceImageView.swift */; };
 		22D85E331CD7FAED00F49A5B /* IMMoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D85E321CD7FAED00F49A5B /* IMMoodView.swift */; };
 		E0E13A4E59D1B30CA6051FFE /* Pods_iMood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF35B0D3A05C5915177C53C /* Pods_iMood.framework */; };
@@ -59,7 +59,7 @@
 		2278ACA11CE2CECF00E3AFF4 /* IMHttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMHttpClient.swift; sourceTree = "<group>"; };
 		2278ACA61CE3063000E3AFF4 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
 		22A5D6AD1CF7A3C500E77A5A /* IMMoodImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMMoodImage.swift; sourceTree = "<group>"; };
-		22ACC6541D3356EE00F57D17 /* MCCastManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCCastManager.swift; sourceTree = "<group>"; };
+		22BE6D631D3C779F00FDBF67 /* MCCastManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCCastManager.swift; sourceTree = "<group>"; };
 		22D85E301CD7FAD600F49A5B /* IMFaceImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMFaceImageView.swift; sourceTree = "<group>"; };
 		22D85E321CD7FAED00F49A5B /* IMMoodView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMMoodView.swift; sourceTree = "<group>"; };
 		364FE02CAD0F35FE5189F493 /* Pods-iMood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMood.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMood/Pods-iMood.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 		22775B101CBB1F6800225BEF /* Utli */ = {
 			isa = PBXGroup;
 			children = (
-				22ACC6531D3356E000F57D17 /* GoogleCast */,
+				22ACC6531D3356E000F57D17 /* Casting */,
 				22775B131CBB214800225BEF /* IMWebService.swift */,
 				22775B151CBB219B00225BEF /* EmotionService.swift */,
 				2278ACA11CE2CECF00E3AFF4 /* IMHttpClient.swift */,
@@ -153,12 +153,12 @@
 			name = Utli;
 			sourceTree = "<group>";
 		};
-		22ACC6531D3356E000F57D17 /* GoogleCast */ = {
+		22ACC6531D3356E000F57D17 /* Casting */ = {
 			isa = PBXGroup;
 			children = (
-				22ACC6541D3356EE00F57D17 /* MCCastManager.swift */,
+				22BE6D631D3C779F00FDBF67 /* MCCastManager.swift */,
 			);
-			name = GoogleCast;
+			name = Casting;
 			sourceTree = "<group>";
 		};
 		22D85E2F1CD7FAA900F49A5B /* Views */ = {
@@ -322,7 +322,7 @@
 				22A5D6AE1CF7A3C500E77A5A /* IMMoodImage.swift in Sources */,
 				22D85E311CD7FAD600F49A5B /* IMFaceImageView.swift in Sources */,
 				224B32791CBE10AD0036A7A1 /* IMFaceDetailsController.swift in Sources */,
-				22ACC6551D3356EE00F57D17 /* MCCastManager.swift in Sources */,
+				22BE6D641D3C779F00FDBF67 /* MCCastManager.swift in Sources */,
 				226550291CBCD5AF00844D76 /* IMImageSourceAlertController.swift in Sources */,
 				22775AFE1CBB1F2E00225BEF /* AppDelegate.swift in Sources */,
 				22775B161CBB219B00225BEF /* EmotionService.swift in Sources */,
