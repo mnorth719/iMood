@@ -7,33 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1F9022AC9979CD59E8F83962DAF51D /* Error.swift */; };
-		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBA7F3642776C1964512C9A38829081 /* Timeline.swift */; };
-		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658CBED44D4009D80F990A188D7A8B3F /* Validation.swift */; };
-		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9278DA00F41E390EE68B6F3C8161C54 /* NetworkReachabilityManager.swift */; };
-		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2959D264574F227296E36F7CDF2E4F4F /* ResponseSerialization.swift */; };
-		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101C763FD5409006D69EDB82815E4A61 /* Manager.swift */; };
-		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DC3EB7B14F56C5823591E484CC06DC /* Upload.swift */; };
-		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BCAC7849E43619A0E6BA6D3291D195 /* Download.swift */; };
-		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC2C7A48545D8C54D52554343225FB8 /* Response.swift */; };
-		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E07E98001DB6C163294A39CAB05963D /* ServerTrustPolicy.swift */; };
-		831F0FBEE9BA48C2AEDB66321B5480A2 /* Pods-iMood-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF176282321D59B692907190AB8F3808 /* Pods-iMood-dummy.m */; };
-		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED443D528393D61A04FBD88603DE5F3 /* Alamofire.swift */; };
-		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6827D6CBD3F8B59B79641ABF6ED159 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E393CF47FE31F265B29AA2D9B67C656 /* Result.swift */; };
-		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD74E0A1B7122513F9BCD2B66B65219 /* Alamofire-dummy.m */; };
-		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9039D48B1E893EF8AD87645A4FF820F /* Stream.swift */; };
-		AF805C845BAB4576FFE44DA6F4B44429 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		B3B0E3250BD6769802717E9FE8A42CD6 /* Pods-iMood-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A55A4C8A3307A7A64E75EF97A1AA477B /* Pods-iMood-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E32C97D15B18BFEB591B4A8B5C8477 /* Notifications.swift */; };
-		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB714D2EF499EE0EF3E1957151533A5D /* ParameterEncoding.swift */; };
-		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B09F376C277F027BDCD54137D76C547 /* MultipartFormData.swift */; };
-		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A29BA50E80B66E36C94B60FAD8863 /* Request.swift */; };
-		F82198F34DD14753A42F4328CD5E7A6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21583C4C50B3A90B3AFD741D1A2E550B /* Error.swift */; };
+		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C4400B2D5D3DE6F1C0B484397A8E3B /* Timeline.swift */; };
+		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E71BA5F7CFCDBE67B047BD57E3C1E9 /* Validation.swift */; };
+		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0FB7792D03E95ABDA726B66C2261DD /* NetworkReachabilityManager.swift */; };
+		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBB3E729D38EB6FCB43D542FB88DACF /* ResponseSerialization.swift */; };
+		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D607157145EC85FDE478959D6C4F2FB /* Manager.swift */; };
+		5A63BD6B5488B7D8CDC7344B3997252D /* Pods-iMood-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A55A4C8A3307A7A64E75EF97A1AA477B /* Pods-iMood-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD262961C216C41661A526D91DB6762C /* Upload.swift */; };
+		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE289733C6CE814E6E3565C9F933258 /* Download.swift */; };
+		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C13FA1FAE60985F8A753AC3852AD03 /* Response.swift */; };
+		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4ED8822F921C1727DE37DCB0439C8 /* ServerTrustPolicy.swift */; };
+		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF749D260678C0B20825F414B2AFBFD /* Alamofire.swift */; };
+		91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C59CF5BD3BD5EAEF2DC62279086A8 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF06DA4214E09638F58BEC600F2D0AA /* Result.swift */; };
+		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC9664DB3BACEEDF50DE7378DC8DB5E /* Alamofire-dummy.m */; };
+		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41585693F4597ED1AA3BB1847D43EC7 /* Stream.swift */; };
+		B71E6DFF3EC6D643E6F95B89AF12B67B /* Pods-iMood-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF176282321D59B692907190AB8F3808 /* Pods-iMood-dummy.m */; };
+		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5A0AE55B63792496F0D137110A41A /* Notifications.swift */; };
+		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033048A652C5D75EB78A91E6EC89AB8B /* ParameterEncoding.swift */; };
+		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E10FCFB88831076E306C717941374CF /* MultipartFormData.swift */; };
+		ECFC36B6C8BA530A91B5DC84B058B121 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CE3182D8089E02786BAA74801AB940 /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ACEDF6C6AFC11B4E97DC7F5C65061A41 /* PBXContainerItemProxy */ = {
+		8E9D47A70B4A6D34FEC49640613DD037 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -43,51 +43,115 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09DC3EB7B14F56C5823591E484CC06DC /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
-		0DBA7F3642776C1964512C9A38829081 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		101C763FD5409006D69EDB82815E4A61 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
-		1E2A29BA50E80B66E36C94B60FAD8863 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		2319C24E0BCB015A693599FD4E48E194 /* Pods_iMood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2959D264574F227296E36F7CDF2E4F4F /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		00FF360A2551DB9017245E51920D9863 /* GCKCastContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKCastContext.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKCastContext.h"; sourceTree = "<group>"; };
+		01B983AAE20635CD81D762B1B6D268F2 /* GCKMediaQueueItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKMediaQueueItem.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKMediaQueueItem.h"; sourceTree = "<group>"; };
+		033048A652C5D75EB78A91E6EC89AB8B /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		1619272325FE414FC24EFFB83604F9BD /* GCKSession+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GCKSession+Protected.h"; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKSession+Protected.h"; sourceTree = "<group>"; };
+		1839EBE2FAA14EFBF92DA5039F7CBE43 /* GCKFrameworkResources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKFrameworkResources.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKFrameworkResources.h"; sourceTree = "<group>"; };
+		1996ABCF97603DAF9CB7C3A5E30EEF32 /* GCKCastContext+UI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GCKCastContext+UI.h"; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKCastContext+UI.h"; sourceTree = "<group>"; };
+		1A0D97FC26B84828141D9C3F519F12C3 /* GCKMediaCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKMediaCommon.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKMediaCommon.h"; sourceTree = "<group>"; };
+		1A32B012975CD4DAB3D01C9D8C4D0193 /* GCKCastSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKCastSession.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKCastSession.h"; sourceTree = "<group>"; };
+		1CD5A0AE55B63792496F0D137110A41A /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		1E10FCFB88831076E306C717941374CF /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		20656D6A79BF0418B9327707BE6CBDC3 /* GCKUIMiniMediaControlsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKUIMiniMediaControlsViewController.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKUIMiniMediaControlsViewController.h"; sourceTree = "<group>"; };
+		20C4400B2D5D3DE6F1C0B484397A8E3B /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		21583C4C50B3A90B3AFD741D1A2E550B /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
 		29A7EE14B9569D91AAE3EB8EED72B467 /* Pods-iMood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iMood.release.xcconfig"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3E52C35B112E941BAFF724A455D03CF7 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7C69379FB6F6E59DB91F41DBC33F17 /* GCKUIDeviceVolumeController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKUIDeviceVolumeController.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKUIDeviceVolumeController.h"; sourceTree = "<group>"; };
+		2ABA3DAEB7E0D2AF7976F181F2D91E9D /* GCKSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKSession.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKSession.h"; sourceTree = "<group>"; };
+		2B32329A2CBDAF36D7E98A9A58D3E528 /* GCKJSONUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKJSONUtils.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKJSONUtils.h"; sourceTree = "<group>"; };
+		2B55A75F57F6DF5FBDFE5E360E4B5E0E /* GoogleCast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoogleCast.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GoogleCast.h"; sourceTree = "<group>"; };
+		2FB86AFF67BF61CCED9A0C2EEF0F0016 /* GCKSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKSessionManager.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKSessionManager.h"; sourceTree = "<group>"; };
+		37B10CE41E4A404C86779AA0364402DA /* GCKUIImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKUIImagePicker.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKUIImagePicker.h"; sourceTree = "<group>"; };
+		37FE1595E783BB2ABCECB5830E4C0BFC /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		3B9EF807B0D6127DCD5B191AAB180063 /* GCKCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKCommon.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKCommon.h"; sourceTree = "<group>"; };
+		3DCB4EABEDA6664C77C8B344006DBFF8 /* GCKGenericChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKGenericChannel.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKGenericChannel.h"; sourceTree = "<group>"; };
+		3E96E3E474C5B7DBA715CFE10F4C1E1D /* GCKCastChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKCastChannel.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKCastChannel.h"; sourceTree = "<group>"; };
+		40C13FA1FAE60985F8A753AC3852AD03 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		4659E0DD85B3D9A8A37AEFE39B0E1062 /* GCKRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKRequest.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKRequest.h"; sourceTree = "<group>"; };
+		478F903E9F28DE64ADDD472CB11DF2D0 /* GCKUIButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKUIButton.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKUIButton.h"; sourceTree = "<group>"; };
+		47E2161E2D138B768CB46866E3F847BC /* NSTimer+GCKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+GCKAdditions.h"; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/NSTimer+GCKAdditions.h"; sourceTree = "<group>"; };
 		4DB11E8B2B1BAD8A769E45C4E95E91C4 /* Pods-iMood-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iMood-resources.sh"; sourceTree = "<group>"; };
-		4E07E98001DB6C163294A39CAB05963D /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		4E393CF47FE31F265B29AA2D9B67C656 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		50BCAC7849E43619A0E6BA6D3291D195 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
-		5175E677ADC3F810A4FB10B104C4332B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B09F376C277F027BDCD54137D76C547 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		5C5763A83A1E028B6C4A073221CB764F /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		658CBED44D4009D80F990A188D7A8B3F /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		6D1F9022AC9979CD59E8F83962DAF51D /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
-		79E32C97D15B18BFEB591B4A8B5C8477 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		7ED443D528393D61A04FBD88603DE5F3 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		8FFF564423DBE209836D47626963E9D4 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		4FDFC17491B605EDBC26BED694BCCB9A /* GCKSessionTraits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKSessionTraits.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKSessionTraits.h"; sourceTree = "<group>"; };
+		5548583170225262E90AA7BBC881DD55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55720FABB933DE3A91BFB1B7B24A0634 /* GCKCastOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKCastOptions.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKCastOptions.h"; sourceTree = "<group>"; };
+		56AED61EC58C06E309595F2EC7E9007D /* GCKUIMediaTrackSelectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKUIMediaTrackSelectionViewController.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKUIMediaTrackSelectionViewController.h"; sourceTree = "<group>"; };
+		5A1D59B928907C1BD461802FA1CF8288 /* GCKGameManagerChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKGameManagerChannel.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKGameManagerChannel.h"; sourceTree = "<group>"; };
+		5BF9A36CB03B4A3148D547F920B1B6A8 /* GoogleCastResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleCastResources.bundle; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Resources/GoogleCastResources.bundle"; sourceTree = "<group>"; };
+		5C0509407B6106B58D2943755A175470 /* GCKPlayerInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKPlayerInfo.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKPlayerInfo.h"; sourceTree = "<group>"; };
+		5CF749D260678C0B20825F414B2AFBFD /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		5D20B80338542D24FE9003BE56072BD3 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		61B7616BFC31226443BF3F52539E4589 /* GCKUIImageHints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKUIImageHints.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKUIImageHints.h"; sourceTree = "<group>"; };
+		625DD50B33D3C91A4918146B3F939852 /* GCKGameManagerState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKGameManagerState.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKGameManagerState.h"; sourceTree = "<group>"; };
+		64DC992DE0BB2C4F627FB51375CD4391 /* GCKMediaControlChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKMediaControlChannel.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKMediaControlChannel.h"; sourceTree = "<group>"; };
+		6703E7B42C43078826C935494E79A7B6 /* GCKDeviceScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKDeviceScanner.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKDeviceScanner.h"; sourceTree = "<group>"; };
+		6715ACDFF85C48ED181528C180881924 /* GCKMediaTextTrackStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKMediaTextTrackStyle.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKMediaTextTrackStyle.h"; sourceTree = "<group>"; };
+		69106CC43E0B57F12BDE0A85ED6F0B29 /* GCKApplicationMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKApplicationMetadata.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKApplicationMetadata.h"; sourceTree = "<group>"; };
+		6A95C53EC9F721AD3F4C23E659B9BBDC /* GCKGlobalFlags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKGlobalFlags.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKGlobalFlags.h"; sourceTree = "<group>"; };
+		6B66B77C2B27641CD564CE4DF91F549D /* GCKError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKError.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKError.h"; sourceTree = "<group>"; };
+		837AD30EA6C02918B717029F5E6BB125 /* GCKGameplayState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKGameplayState.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKGameplayState.h"; sourceTree = "<group>"; };
+		860C52D59F1512EF08FDF1BA105D4217 /* GCKUIMediaController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKUIMediaController.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKUIMediaController.h"; sourceTree = "<group>"; };
+		87877CAA7B63CEDCB9D4FF5BBC4537CD /* GCKDeviceProvider+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GCKDeviceProvider+Protected.h"; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKDeviceProvider+Protected.h"; sourceTree = "<group>"; };
+		8E5A566398E29F5D77B0648F95F57EF6 /* GCKLobbyState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKLobbyState.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKLobbyState.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940C59CF5BD3BD5EAEF2DC62279086A8 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		95388CEC6A5B4DC624317AE582C02C37 /* GCKMediaMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKMediaMetadata.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKMediaMetadata.h"; sourceTree = "<group>"; };
+		9C771213B9E4F1F5CC07352822893DE1 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D30248895DA2D0E1FB5FEA4289DA0D2 /* GCKNSDictionary+TypedValueLookup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GCKNSDictionary+TypedValueLookup.h"; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKNSDictionary+TypedValueLookup.h"; sourceTree = "<group>"; };
+		9D607157145EC85FDE478959D6C4F2FB /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
 		9F34008F5DCB3B3B7F265F9EF30A9319 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FD74E0A1B7122513F9BCD2B66B65219 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		A149BF2819128352A98494A4402603EE /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		A55A4C8A3307A7A64E75EF97A1AA477B /* Pods-iMood-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iMood-umbrella.h"; sourceTree = "<group>"; };
-		AB714D2EF499EE0EF3E1957151533A5D /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		AE6827D6CBD3F8B59B79641ABF6ED159 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		A988E45610B8BE3E10254A21AFA6E6FA /* GCKSenderApplicationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKSenderApplicationInfo.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKSenderApplicationInfo.h"; sourceTree = "<group>"; };
+		AC8E30B0544FDB1BC2D965842F7E6E10 /* GCKDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKDevice.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKDevice.h"; sourceTree = "<group>"; };
+		AE247D8AF71E5D07AA607186B86F0864 /* Pods_iMood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBB3E729D38EB6FCB43D542FB88DACF /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		B124B9E03AED81BA68B74BDC92848CE6 /* NSDictionary+GCKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+GCKAdditions.h"; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/NSDictionary+GCKAdditions.h"; sourceTree = "<group>"; };
+		B19B4FB5D25ED6D6B4A0B52292EDE388 /* GCKGameManagerResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKGameManagerResult.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKGameManagerResult.h"; sourceTree = "<group>"; };
 		B237D4EF4A9B8AACC6EC7D80704D395C /* Pods-iMood-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iMood-frameworks.sh"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B41585693F4597ED1AA3BB1847D43EC7 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		B66A2A246C47EAEEA0DFD5A8BC556AA7 /* GCKUIUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKUIUtils.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKUIUtils.h"; sourceTree = "<group>"; };
+		B884CA1F908AB69035E16D50C87F3282 /* GCKFilterCriteria.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKFilterCriteria.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKFilterCriteria.h"; sourceTree = "<group>"; };
+		BAFFDA0ABD5FD8DEF9D1E61D887657BE /* GCKDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKDeviceManager.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKDeviceManager.h"; sourceTree = "<group>"; };
+		BBF06DA4214E09638F58BEC600F2D0AA /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		C0E90EA34FF81EA115BBF9BE30EACE8E /* GCKMediaTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKMediaTrack.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKMediaTrack.h"; sourceTree = "<group>"; };
+		C5AD9830CBEF10F2ECEC516704397F20 /* GCKDiscoveryManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKDiscoveryManager.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKDiscoveryManager.h"; sourceTree = "<group>"; };
+		CBE1A40FCFFEAAAFB2BB2263CB8D9FFC /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		CC0FB7792D03E95ABDA726B66C2261DD /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		CC45F93535AB9A7DA78FA4A8F93D3785 /* GCKMediaInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKMediaInformation.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKMediaInformation.h"; sourceTree = "<group>"; };
+		CC521C1D22D22FCB9870CEA76E4D83CD /* GCKLoggerFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKLoggerFilter.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKLoggerFilter.h"; sourceTree = "<group>"; };
+		CD79A61B3CBAE5AE254B66EC718ACCA0 /* GCKUIImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKUIImageCache.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKUIImageCache.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CF176282321D59B692907190AB8F3808 /* Pods-iMood-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iMood-dummy.m"; sourceTree = "<group>"; };
+		D2A4ED8822F921C1727DE37DCB0439C8 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		D327C352D85536126047AB793BA8941B /* GCKMediaStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKMediaStatus.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKMediaStatus.h"; sourceTree = "<group>"; };
+		D4CA49C9CF8A9C543D344EA9F4151E25 /* GCKRemoteMediaClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKRemoteMediaClient.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKRemoteMediaClient.h"; sourceTree = "<group>"; };
+		D6FD4C59335AF746E93014243985F98E /* GCKLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKLogger.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKLogger.h"; sourceTree = "<group>"; };
+		D74EB9381B86E090F975192C24DFF91A /* GoogleCast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleCast.framework; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework"; sourceTree = "<group>"; };
 		D7D90499F90CA6BD70E76CAA0F244981 /* Pods-iMood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iMood.debug.xcconfig"; sourceTree = "<group>"; };
 		D89D76DFCA608BCA46458F02BC8774EE /* Pods-iMood-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iMood-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DDC2C7A48545D8C54D52554343225FB8 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		D9193906D8904B18843841BEDF2FC209 /* GCKDeviceProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKDeviceProvider.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKDeviceProvider.h"; sourceTree = "<group>"; };
+		DE7C38387DB458290B7387CEAA9C4DCA /* GCKColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKColor.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKColor.h"; sourceTree = "<group>"; };
 		DFF8510CDFFC03FFD5F33CFFC614AF50 /* Pods-iMood-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iMood-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6EE109D43FE0531C8F399898ED99463 /* GCKPlayerState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKPlayerState.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKPlayerState.h"; sourceTree = "<group>"; };
+		EC8D43F8F1706117CAE116C077A3DF06 /* GCKUICastContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKUICastContainerViewController.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKUICastContainerViewController.h"; sourceTree = "<group>"; };
+		EDC9664DB3BACEEDF50DE7378DC8DB5E /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		F0402733B21A7440B2A822A626E16B6A /* Pods-iMood.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iMood.modulemap"; sourceTree = "<group>"; };
-		F9039D48B1E893EF8AD87645A4FF820F /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
-		F9278DA00F41E390EE68B6F3C8161C54 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		F2CE3182D8089E02786BAA74801AB940 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		F43C2C7409E928D236FA7CA7CB6E1D2F /* GCKDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKDefines.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKDefines.h"; sourceTree = "<group>"; };
+		F4E71BA5F7CFCDBE67B047BD57E3C1E9 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		F53921D430F2CAF59F13728905196B82 /* GCKImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKImage.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKImage.h"; sourceTree = "<group>"; };
+		F6C26F0210FC189486B7102698E70B32 /* GCKLaunchOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKLaunchOptions.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKLaunchOptions.h"; sourceTree = "<group>"; };
+		F81E5EB23E518594B9F3BA3ABB138978 /* GCKUICastButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCKUICastButton.h; path = "GoogleCastSDK-Public-3.0.0-Release/GoogleCast.framework/Versions/A/Headers/GCKUICastButton.h"; sourceTree = "<group>"; };
+		FBE289733C6CE814E6E3565C9F933258 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		FD262961C216C41661A526D91DB6762C /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AF623AF5E4C74B07E670C78EACE58CA2 /* Frameworks */ = {
+		60F918A975A12248D0A6CF0C602B9A50 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF805C845BAB4576FFE44DA6F4B44429 /* Foundation.framework in Frameworks */,
+				ECFC36B6C8BA530A91B5DC84B058B121 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +159,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F82198F34DD14753A42F4328CD5E7A6B /* Foundation.framework in Frameworks */,
+				91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,62 +184,87 @@
 			path = "Target Support Files/Pods-iMood";
 			sourceTree = "<group>";
 		};
-		35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */ = {
+		31BC0B4AE91CAB0B5DE7B6F4D35AE637 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				6E519FC8760483F5D136181B2EBCBDEB /* Alamofire */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		68F6D4CBC8B6CDE1D634D9F379F37168 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5C5763A83A1E028B6C4A073221CB764F /* Alamofire.modulemap */,
-				A149BF2819128352A98494A4402603EE /* Alamofire.xcconfig */,
-				9FD74E0A1B7122513F9BCD2B66B65219 /* Alamofire-dummy.m */,
-				8FFF564423DBE209836D47626963E9D4 /* Alamofire-prefix.pch */,
-				AE6827D6CBD3F8B59B79641ABF6ED159 /* Alamofire-umbrella.h */,
-				5175E677ADC3F810A4FB10B104C4332B /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		6E519FC8760483F5D136181B2EBCBDEB /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				7ED443D528393D61A04FBD88603DE5F3 /* Alamofire.swift */,
-				50BCAC7849E43619A0E6BA6D3291D195 /* Download.swift */,
-				6D1F9022AC9979CD59E8F83962DAF51D /* Error.swift */,
-				101C763FD5409006D69EDB82815E4A61 /* Manager.swift */,
-				5B09F376C277F027BDCD54137D76C547 /* MultipartFormData.swift */,
-				F9278DA00F41E390EE68B6F3C8161C54 /* NetworkReachabilityManager.swift */,
-				79E32C97D15B18BFEB591B4A8B5C8477 /* Notifications.swift */,
-				AB714D2EF499EE0EF3E1957151533A5D /* ParameterEncoding.swift */,
-				1E2A29BA50E80B66E36C94B60FAD8863 /* Request.swift */,
-				DDC2C7A48545D8C54D52554343225FB8 /* Response.swift */,
-				2959D264574F227296E36F7CDF2E4F4F /* ResponseSerialization.swift */,
-				4E393CF47FE31F265B29AA2D9B67C656 /* Result.swift */,
-				4E07E98001DB6C163294A39CAB05963D /* ServerTrustPolicy.swift */,
-				F9039D48B1E893EF8AD87645A4FF820F /* Stream.swift */,
-				0DBA7F3642776C1964512C9A38829081 /* Timeline.swift */,
-				09DC3EB7B14F56C5823591E484CC06DC /* Upload.swift */,
-				658CBED44D4009D80F990A188D7A8B3F /* Validation.swift */,
-				68F6D4CBC8B6CDE1D634D9F379F37168 /* Support Files */,
+				5CF749D260678C0B20825F414B2AFBFD /* Alamofire.swift */,
+				FBE289733C6CE814E6E3565C9F933258 /* Download.swift */,
+				21583C4C50B3A90B3AFD741D1A2E550B /* Error.swift */,
+				9D607157145EC85FDE478959D6C4F2FB /* Manager.swift */,
+				1E10FCFB88831076E306C717941374CF /* MultipartFormData.swift */,
+				CC0FB7792D03E95ABDA726B66C2261DD /* NetworkReachabilityManager.swift */,
+				1CD5A0AE55B63792496F0D137110A41A /* Notifications.swift */,
+				033048A652C5D75EB78A91E6EC89AB8B /* ParameterEncoding.swift */,
+				F2CE3182D8089E02786BAA74801AB940 /* Request.swift */,
+				40C13FA1FAE60985F8A753AC3852AD03 /* Response.swift */,
+				AEBB3E729D38EB6FCB43D542FB88DACF /* ResponseSerialization.swift */,
+				BBF06DA4214E09638F58BEC600F2D0AA /* Result.swift */,
+				D2A4ED8822F921C1727DE37DCB0439C8 /* ServerTrustPolicy.swift */,
+				B41585693F4597ED1AA3BB1847D43EC7 /* Stream.swift */,
+				20C4400B2D5D3DE6F1C0B484397A8E3B /* Timeline.swift */,
+				FD262961C216C41661A526D91DB6762C /* Upload.swift */,
+				F4E71BA5F7CFCDBE67B047BD57E3C1E9 /* Validation.swift */,
+				9F1AD9147D3FDF331846D516960D9C65 /* Support Files */,
 			);
 			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4AD8B6D12821D0DC6E185550944F6042 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D74EB9381B86E090F975192C24DFF91A /* GoogleCast.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */,
-				F19CC0618DC93739C995577A0E9327F7 /* Products */,
+				C33E06D89FC86DDC5307A9B267B82A20 /* Pods */,
+				A0AE61D128D5EF27F473B4605EA26E10 /* Products */,
 				B69912A6894B8F6A835D6853820CC513 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		97A54259EF6A664150EB271B265F7991 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BF9A36CB03B4A3148D547F920B1B6A8 /* GoogleCastResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9F1AD9147D3FDF331846D516960D9C65 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37FE1595E783BB2ABCECB5830E4C0BFC /* Alamofire.modulemap */,
+				CBE1A40FCFFEAAAFB2BB2263CB8D9FFC /* Alamofire.xcconfig */,
+				EDC9664DB3BACEEDF50DE7378DC8DB5E /* Alamofire-dummy.m */,
+				5D20B80338542D24FE9003BE56072BD3 /* Alamofire-prefix.pch */,
+				940C59CF5BD3BD5EAEF2DC62279086A8 /* Alamofire-umbrella.h */,
+				5548583170225262E90AA7BBC881DD55 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		A0AE61D128D5EF27F473B4605EA26E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C771213B9E4F1F5CC07352822893DE1 /* Alamofire.framework */,
+				AE247D8AF71E5D07AA607186B86F0864 /* Pods_iMood.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		B69912A6894B8F6A835D6853820CC513 /* Targets Support Files */ = {
@@ -189,36 +278,107 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+		C33E06D89FC86DDC5307A9B267B82A20 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+				31BC0B4AE91CAB0B5DE7B6F4D35AE637 /* Alamofire */,
+				FED96CC141A8CD03C65B27731BCFEC06 /* google-cast-sdk */,
 			);
-			name = iOS;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		F19CC0618DC93739C995577A0E9327F7 /* Products */ = {
+		C9E9254414C4FA3DD38E60CFB902E502 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				3E52C35B112E941BAFF724A455D03CF7 /* Alamofire.framework */,
-				2319C24E0BCB015A693599FD4E48E194 /* Pods_iMood.framework */,
+				69106CC43E0B57F12BDE0A85ED6F0B29 /* GCKApplicationMetadata.h */,
+				3E96E3E474C5B7DBA715CFE10F4C1E1D /* GCKCastChannel.h */,
+				00FF360A2551DB9017245E51920D9863 /* GCKCastContext.h */,
+				1996ABCF97603DAF9CB7C3A5E30EEF32 /* GCKCastContext+UI.h */,
+				55720FABB933DE3A91BFB1B7B24A0634 /* GCKCastOptions.h */,
+				1A32B012975CD4DAB3D01C9D8C4D0193 /* GCKCastSession.h */,
+				DE7C38387DB458290B7387CEAA9C4DCA /* GCKColor.h */,
+				3B9EF807B0D6127DCD5B191AAB180063 /* GCKCommon.h */,
+				F43C2C7409E928D236FA7CA7CB6E1D2F /* GCKDefines.h */,
+				AC8E30B0544FDB1BC2D965842F7E6E10 /* GCKDevice.h */,
+				BAFFDA0ABD5FD8DEF9D1E61D887657BE /* GCKDeviceManager.h */,
+				D9193906D8904B18843841BEDF2FC209 /* GCKDeviceProvider.h */,
+				87877CAA7B63CEDCB9D4FF5BBC4537CD /* GCKDeviceProvider+Protected.h */,
+				6703E7B42C43078826C935494E79A7B6 /* GCKDeviceScanner.h */,
+				C5AD9830CBEF10F2ECEC516704397F20 /* GCKDiscoveryManager.h */,
+				6B66B77C2B27641CD564CE4DF91F549D /* GCKError.h */,
+				B884CA1F908AB69035E16D50C87F3282 /* GCKFilterCriteria.h */,
+				1839EBE2FAA14EFBF92DA5039F7CBE43 /* GCKFrameworkResources.h */,
+				5A1D59B928907C1BD461802FA1CF8288 /* GCKGameManagerChannel.h */,
+				B19B4FB5D25ED6D6B4A0B52292EDE388 /* GCKGameManagerResult.h */,
+				625DD50B33D3C91A4918146B3F939852 /* GCKGameManagerState.h */,
+				837AD30EA6C02918B717029F5E6BB125 /* GCKGameplayState.h */,
+				3DCB4EABEDA6664C77C8B344006DBFF8 /* GCKGenericChannel.h */,
+				6A95C53EC9F721AD3F4C23E659B9BBDC /* GCKGlobalFlags.h */,
+				F53921D430F2CAF59F13728905196B82 /* GCKImage.h */,
+				2B32329A2CBDAF36D7E98A9A58D3E528 /* GCKJSONUtils.h */,
+				F6C26F0210FC189486B7102698E70B32 /* GCKLaunchOptions.h */,
+				8E5A566398E29F5D77B0648F95F57EF6 /* GCKLobbyState.h */,
+				D6FD4C59335AF746E93014243985F98E /* GCKLogger.h */,
+				CC521C1D22D22FCB9870CEA76E4D83CD /* GCKLoggerFilter.h */,
+				1A0D97FC26B84828141D9C3F519F12C3 /* GCKMediaCommon.h */,
+				64DC992DE0BB2C4F627FB51375CD4391 /* GCKMediaControlChannel.h */,
+				CC45F93535AB9A7DA78FA4A8F93D3785 /* GCKMediaInformation.h */,
+				95388CEC6A5B4DC624317AE582C02C37 /* GCKMediaMetadata.h */,
+				01B983AAE20635CD81D762B1B6D268F2 /* GCKMediaQueueItem.h */,
+				D327C352D85536126047AB793BA8941B /* GCKMediaStatus.h */,
+				6715ACDFF85C48ED181528C180881924 /* GCKMediaTextTrackStyle.h */,
+				C0E90EA34FF81EA115BBF9BE30EACE8E /* GCKMediaTrack.h */,
+				9D30248895DA2D0E1FB5FEA4289DA0D2 /* GCKNSDictionary+TypedValueLookup.h */,
+				5C0509407B6106B58D2943755A175470 /* GCKPlayerInfo.h */,
+				E6EE109D43FE0531C8F399898ED99463 /* GCKPlayerState.h */,
+				D4CA49C9CF8A9C543D344EA9F4151E25 /* GCKRemoteMediaClient.h */,
+				4659E0DD85B3D9A8A37AEFE39B0E1062 /* GCKRequest.h */,
+				A988E45610B8BE3E10254A21AFA6E6FA /* GCKSenderApplicationInfo.h */,
+				2ABA3DAEB7E0D2AF7976F181F2D91E9D /* GCKSession.h */,
+				1619272325FE414FC24EFFB83604F9BD /* GCKSession+Protected.h */,
+				2FB86AFF67BF61CCED9A0C2EEF0F0016 /* GCKSessionManager.h */,
+				4FDFC17491B605EDBC26BED694BCCB9A /* GCKSessionTraits.h */,
+				478F903E9F28DE64ADDD472CB11DF2D0 /* GCKUIButton.h */,
+				F81E5EB23E518594B9F3BA3ABB138978 /* GCKUICastButton.h */,
+				EC8D43F8F1706117CAE116C077A3DF06 /* GCKUICastContainerViewController.h */,
+				2A7C69379FB6F6E59DB91F41DBC33F17 /* GCKUIDeviceVolumeController.h */,
+				CD79A61B3CBAE5AE254B66EC718ACCA0 /* GCKUIImageCache.h */,
+				61B7616BFC31226443BF3F52539E4589 /* GCKUIImageHints.h */,
+				37B10CE41E4A404C86779AA0364402DA /* GCKUIImagePicker.h */,
+				860C52D59F1512EF08FDF1BA105D4217 /* GCKUIMediaController.h */,
+				56AED61EC58C06E309595F2EC7E9007D /* GCKUIMediaTrackSelectionViewController.h */,
+				20656D6A79BF0418B9327707BE6CBDC3 /* GCKUIMiniMediaControlsViewController.h */,
+				B66A2A246C47EAEEA0DFD5A8BC556AA7 /* GCKUIUtils.h */,
+				2B55A75F57F6DF5FBDFE5E360E4B5E0E /* GoogleCast.h */,
+				B124B9E03AED81BA68B74BDC92848CE6 /* NSDictionary+GCKAdditions.h */,
+				47E2161E2D138B768CB46866E3F847BC /* NSTimer+GCKAdditions.h */,
+				4AD8B6D12821D0DC6E185550944F6042 /* Frameworks */,
+				97A54259EF6A664150EB271B265F7991 /* Resources */,
 			);
-			name = Products;
+			name = Core;
+			sourceTree = "<group>";
+		};
+		FED96CC141A8CD03C65B27731BCFEC06 /* google-cast-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				C9E9254414C4FA3DD38E60CFB902E502 /* Core */,
+			);
+			path = "google-cast-sdk";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A74AFFB42C04545163FF09BC446E9C51 /* Headers */ = {
+		D462DF21BD3DB6154AF37FD1F8ABDEF7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3B0E3250BD6769802717E9FE8A42CD6 /* Pods-iMood-umbrella.h in Headers */,
+				5A63BD6B5488B7D8CDC7344B3997252D /* Pods-iMood-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,24 +393,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		595F059ADEA213FE8F5DD715820D6E00 /* Pods-iMood */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9E2EA433CF618B18A1EC3C35D1D0E05C /* Build configuration list for PBXNativeTarget "Pods-iMood" */;
-			buildPhases = (
-				078077A443E626F71B5554710E41BDDD /* Sources */,
-				AF623AF5E4C74B07E670C78EACE58CA2 /* Frameworks */,
-				A74AFFB42C04545163FF09BC446E9C51 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1341612DC983AE8439C5E46F5D68EA61 /* PBXTargetDependency */,
-			);
-			name = "Pods-iMood";
-			productName = "Pods-iMood";
-			productReference = 2319C24E0BCB015A693599FD4E48E194 /* Pods_iMood.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */;
@@ -265,7 +407,25 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 3E52C35B112E941BAFF724A455D03CF7 /* Alamofire.framework */;
+			productReference = 9C771213B9E4F1F5CC07352822893DE1 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C8FC3362D3E4A1C3ECE164E9CFC0461 /* Pods-iMood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C185256BEAAB78A1325EAB0E65EA4B2D /* Build configuration list for PBXNativeTarget "Pods-iMood" */;
+			buildPhases = (
+				78595903446506A56C64D6D17E95CD1E /* Sources */,
+				60F918A975A12248D0A6CF0C602B9A50 /* Frameworks */,
+				D462DF21BD3DB6154AF37FD1F8ABDEF7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172DB6821B252ED7C89BA467D1CC8F69 /* PBXTargetDependency */,
+			);
+			name = "Pods-iMood";
+			productName = "Pods-iMood";
+			productReference = AE247D8AF71E5D07AA607186B86F0864 /* Pods_iMood.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -274,7 +434,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -285,22 +445,22 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F19CC0618DC93739C995577A0E9327F7 /* Products */;
+			productRefGroup = A0AE61D128D5EF27F473B4605EA26E10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
-				595F059ADEA213FE8F5DD715820D6E00 /* Pods-iMood */,
+				8C8FC3362D3E4A1C3ECE164E9CFC0461 /* Pods-iMood */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		078077A443E626F71B5554710E41BDDD /* Sources */ = {
+		78595903446506A56C64D6D17E95CD1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				831F0FBEE9BA48C2AEDB66321B5480A2 /* Pods-iMood-dummy.m in Sources */,
+				B71E6DFF3EC6D643E6F95B89AF12B67B /* Pods-iMood-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,19 +492,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1341612DC983AE8439C5E46F5D68EA61 /* PBXTargetDependency */ = {
+		172DB6821B252ED7C89BA467D1CC8F69 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
-			targetProxy = ACEDF6C6AFC11B4E97DC7F5C65061A41 /* PBXContainerItemProxy */;
+			targetProxy = 8E9D47A70B4A6D34FEC49640613DD037 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -359,10 +520,12 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -380,10 +543,103 @@
 			};
 			name = Debug;
 		};
-		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+		32AD5F8918CA8B349E4671410FA624C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBE1A40FCFFEAAAFB2BB2263CB8D9FFC /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		466C20297C89AD1DCD9B627F8968306B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A7EE14B9569D91AAE3EB8EED72B467 /* Pods-iMood.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iMood/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iMood/Pods-iMood.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iMood;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75218111E718FACE36F771E8ABECDB62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBE1A40FCFFEAAAFB2BB2263CB8D9FFC /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -400,7 +656,10 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -414,17 +673,19 @@
 			};
 			name = Release;
 		};
-		858D9D8D7DEC68DEB2335640117CA335 /* Debug */ = {
+		FA4650D2B1BA3569FAFCA558566D2AD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D7D90499F90CA6BD70E76CAA0F244981 /* Pods-iMood.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-iMood/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -432,9 +693,11 @@
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iMood/Pods-iMood.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_iMood;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -444,91 +707,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		8D7563421CB3D736181DD7A3A00A3AA0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A149BF2819128352A98494A4402603EE /* Alamofire.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DDD135982FA3FBFAF77E8EC48CF38AD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A149BF2819128352A98494A4402603EE /* Alamofire.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E1E9018C808677825B45F336B580AB64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29A7EE14B9569D91AAE3EB8EED72B467 /* Pods-iMood.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-iMood/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iMood/Pods-iMood.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_iMood;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -536,8 +714,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
-				74857149DC1E0D599B8A01A78349A926 /* Release */,
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -545,17 +723,17 @@
 		3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D7563421CB3D736181DD7A3A00A3AA0 /* Debug */,
-				DDD135982FA3FBFAF77E8EC48CF38AD9 /* Release */,
+				75218111E718FACE36F771E8ABECDB62 /* Debug */,
+				32AD5F8918CA8B349E4671410FA624C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E2EA433CF618B18A1EC3C35D1D0E05C /* Build configuration list for PBXNativeTarget "Pods-iMood" */ = {
+		C185256BEAAB78A1325EAB0E65EA4B2D /* Build configuration list for PBXNativeTarget "Pods-iMood" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				858D9D8D7DEC68DEB2335640117CA335 /* Debug */,
-				E1E9018C808677825B45F336B580AB64 /* Release */,
+				FA4650D2B1BA3569FAFCA558566D2AD8 /* Debug */,
+				466C20297C89AD1DCD9B627F8968306B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

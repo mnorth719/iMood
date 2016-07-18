@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22307EE71D337AD500DC2071 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 22307EE61D337AD500DC2071 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		224B32791CBE10AD0036A7A1 /* IMFaceDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224B32781CBE10AD0036A7A1 /* IMFaceDetailsController.swift */; };
 		226550271CBCBB1900844D76 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 226550261CBCBB1900844D76 /* camera.png */; };
 		226550291CBCD5AF00844D76 /* IMImageSourceAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226550281CBCD5AF00844D76 /* IMImageSourceAlertController.swift */; };
@@ -21,14 +22,27 @@
 		2278ACA21CE2CECF00E3AFF4 /* IMHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278ACA11CE2CECF00E3AFF4 /* IMHttpClient.swift */; };
 		2278ACA71CE3063000E3AFF4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2278ACA61CE3063000E3AFF4 /* Alamofire.framework */; };
 		22A5D6AE1CF7A3C500E77A5A /* IMMoodImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5D6AD1CF7A3C500E77A5A /* IMMoodImage.swift */; };
-		22A5D6B41CFE073900E77A5A /* IMNavogationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5D6B31CFE073900E77A5A /* IMNavogationController.swift */; };
+		22ACC6551D3356EE00F57D17 /* MCCastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ACC6541D3356EE00F57D17 /* MCCastManager.swift */; };
 		22D85E311CD7FAD600F49A5B /* IMFaceImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D85E301CD7FAD600F49A5B /* IMFaceImageView.swift */; };
 		22D85E331CD7FAED00F49A5B /* IMMoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D85E321CD7FAED00F49A5B /* IMMoodView.swift */; };
-		AE3303BCD326F540F584C285 /* Pods_iMood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376D3143C97D9294DFA53C17 /* Pods_iMood.framework */; };
+		E0E13A4E59D1B30CA6051FFE /* Pods_iMood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF35B0D3A05C5915177C53C /* Pods_iMood.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		22307EE41D3379EC00DC2071 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22307EE71D337AD500DC2071 /* Alamofire.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		2082901AFD5E1A91E19D68AC /* Pods-iMood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMood.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMood/Pods-iMood.release.xcconfig"; sourceTree = "<group>"; };
+		22307EE61D337AD500DC2071 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Alamofire/Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		224B32781CBE10AD0036A7A1 /* IMFaceDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMFaceDetailsController.swift; sourceTree = "<group>"; };
 		226550261CBCBB1900844D76 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
 		226550281CBCD5AF00844D76 /* IMImageSourceAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMImageSourceAlertController.swift; sourceTree = "<group>"; };
@@ -45,11 +59,12 @@
 		2278ACA11CE2CECF00E3AFF4 /* IMHttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMHttpClient.swift; sourceTree = "<group>"; };
 		2278ACA61CE3063000E3AFF4 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
 		22A5D6AD1CF7A3C500E77A5A /* IMMoodImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMMoodImage.swift; sourceTree = "<group>"; };
-		22A5D6B31CFE073900E77A5A /* IMNavogationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMNavogationController.swift; sourceTree = "<group>"; };
+		22ACC6541D3356EE00F57D17 /* MCCastManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCCastManager.swift; sourceTree = "<group>"; };
 		22D85E301CD7FAD600F49A5B /* IMFaceImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMFaceImageView.swift; sourceTree = "<group>"; };
 		22D85E321CD7FAED00F49A5B /* IMMoodView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMMoodView.swift; sourceTree = "<group>"; };
-		376D3143C97D9294DFA53C17 /* Pods_iMood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE86BFBEB0FAEC842E0F2ECF /* Pods-iMood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMood/Pods-iMood.debug.xcconfig"; sourceTree = "<group>"; };
+		364FE02CAD0F35FE5189F493 /* Pods-iMood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMood.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMood/Pods-iMood.release.xcconfig"; sourceTree = "<group>"; };
+		9BF35B0D3A05C5915177C53C /* Pods_iMood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F96EBEA9958B363AB59E89 /* Pods-iMood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMood/Pods-iMood.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,28 +73,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				2278ACA71CE3063000E3AFF4 /* Alamofire.framework in Frameworks */,
-				AE3303BCD326F540F584C285 /* Pods_iMood.framework in Frameworks */,
+				E0E13A4E59D1B30CA6051FFE /* Pods_iMood.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		226550231CBCBA3700844D76 /* resources */ = {
+		193F3DBBE4F036078FAD1FCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6F96EBEA9958B363AB59E89 /* Pods-iMood.debug.xcconfig */,
+				364FE02CAD0F35FE5189F493 /* Pods-iMood.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		226550231CBCBA3700844D76 /* images */ = {
 			isa = PBXGroup;
 			children = (
 				226550261CBCBB1900844D76 /* camera.png */,
 			);
-			name = resources;
+			name = images;
 			sourceTree = "<group>";
 		};
 		22775AF11CBB1F2E00225BEF = {
 			isa = PBXGroup;
 			children = (
+				22307EE61D337AD500DC2071 /* Alamofire.framework */,
 				22775AFC1CBB1F2E00225BEF /* iMood */,
 				22775AFB1CBB1F2E00225BEF /* Products */,
-				AD5672080B9303D9B8062680 /* Pods */,
 				B4AC3159E138AAB7E287B5AC /* Frameworks */,
+				193F3DBBE4F036078FAD1FCB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,7 +121,7 @@
 			children = (
 				22D85E341CD7FB1E00F49A5B /* Controllers */,
 				22D85E2F1CD7FAA900F49A5B /* Views */,
-				226550231CBCBA3700844D76 /* resources */,
+				226550231CBCBA3700844D76 /* images */,
 				22775B101CBB1F6800225BEF /* Utli */,
 				22775B0F1CBB1F4700225BEF /* Model */,
 				22775AFD1CBB1F2E00225BEF /* AppDelegate.swift */,
@@ -120,11 +145,20 @@
 		22775B101CBB1F6800225BEF /* Utli */ = {
 			isa = PBXGroup;
 			children = (
+				22ACC6531D3356E000F57D17 /* GoogleCast */,
 				22775B131CBB214800225BEF /* IMWebService.swift */,
 				22775B151CBB219B00225BEF /* EmotionService.swift */,
 				2278ACA11CE2CECF00E3AFF4 /* IMHttpClient.swift */,
 			);
 			name = Utli;
+			sourceTree = "<group>";
+		};
+		22ACC6531D3356E000F57D17 /* GoogleCast */ = {
+			isa = PBXGroup;
+			children = (
+				22ACC6541D3356EE00F57D17 /* MCCastManager.swift */,
+			);
+			name = GoogleCast;
 			sourceTree = "<group>";
 		};
 		22D85E2F1CD7FAA900F49A5B /* Views */ = {
@@ -142,25 +176,15 @@
 				22775AFF1CBB1F2E00225BEF /* ViewController.swift */,
 				226550281CBCD5AF00844D76 /* IMImageSourceAlertController.swift */,
 				224B32781CBE10AD0036A7A1 /* IMFaceDetailsController.swift */,
-				22A5D6B31CFE073900E77A5A /* IMNavogationController.swift */,
 			);
 			name = Controllers;
-			sourceTree = "<group>";
-		};
-		AD5672080B9303D9B8062680 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BE86BFBEB0FAEC842E0F2ECF /* Pods-iMood.debug.xcconfig */,
-				2082901AFD5E1A91E19D68AC /* Pods-iMood.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		B4AC3159E138AAB7E287B5AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				2278ACA61CE3063000E3AFF4 /* Alamofire.framework */,
-				376D3143C97D9294DFA53C17 /* Pods_iMood.framework */,
+				9BF35B0D3A05C5915177C53C /* Pods_iMood.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,12 +196,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22775B0C1CBB1F2E00225BEF /* Build configuration list for PBXNativeTarget "iMood" */;
 			buildPhases = (
-				B711A18FAD3373A952E1CD30 /* Check Pods Manifest.lock */,
+				9D1F84B328D877827B1FE530 /* [CP] Check Pods Manifest.lock */,
 				22775AF61CBB1F2E00225BEF /* Sources */,
+				22307EE41D3379EC00DC2071 /* CopyFiles */,
 				22775AF71CBB1F2E00225BEF /* Frameworks */,
 				22775AF81CBB1F2E00225BEF /* Resources */,
-				3ACB9B1A284778015925610D /* Embed Pods Frameworks */,
-				E0F79F5C1EF480065EA9488F /* Copy Pods Resources */,
+				BBF9FD77E8C1DEADB3AB7FE6 /* [CP] Embed Pods Frameworks */,
+				8AD84E09E435C674C7142A14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,29 +262,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3ACB9B1A284778015925610D /* Embed Pods Frameworks */ = {
+		8AD84E09E435C674C7142A14 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMood/Pods-iMood-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMood/Pods-iMood-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B711A18FAD3373A952E1CD30 /* Check Pods Manifest.lock */ = {
+		9D1F84B328D877827B1FE530 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,19 +292,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		E0F79F5C1EF480065EA9488F /* Copy Pods Resources */ = {
+		BBF9FD77E8C1DEADB3AB7FE6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMood/Pods-iMood-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMood/Pods-iMood-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -296,8 +321,8 @@
 				22775B181CBB4DFD00225BEF /* IMFace.swift in Sources */,
 				22A5D6AE1CF7A3C500E77A5A /* IMMoodImage.swift in Sources */,
 				22D85E311CD7FAD600F49A5B /* IMFaceImageView.swift in Sources */,
-				22A5D6B41CFE073900E77A5A /* IMNavogationController.swift in Sources */,
 				224B32791CBE10AD0036A7A1 /* IMFaceDetailsController.swift in Sources */,
+				22ACC6551D3356EE00F57D17 /* MCCastManager.swift in Sources */,
 				226550291CBCD5AF00844D76 /* IMImageSourceAlertController.swift in Sources */,
 				22775AFE1CBB1F2E00225BEF /* AppDelegate.swift in Sources */,
 				22775B161CBB219B00225BEF /* EmotionService.swift in Sources */,
@@ -411,7 +436,7 @@
 		};
 		22775B0D1CBB1F2E00225BEF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE86BFBEB0FAEC842E0F2ECF /* Pods-iMood.debug.xcconfig */;
+			baseConfigurationReference = E6F96EBEA9958B363AB59E89 /* Pods-iMood.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -431,7 +456,7 @@
 		};
 		22775B0E1CBB1F2E00225BEF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2082901AFD5E1A91E19D68AC /* Pods-iMood.release.xcconfig */;
+			baseConfigurationReference = 364FE02CAD0F35FE5189F493 /* Pods-iMood.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

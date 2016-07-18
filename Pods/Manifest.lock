@@ -1,10 +1,17 @@
 PODS:
-  - Alamofire (3.4.0)
+  - Alamofire (3.4.1)
+  - google-cast-sdk (3.0.0):
+    - google-cast-sdk/Core (= 3.0.0)
+  - google-cast-sdk/Core (3.0.0)
 
 DEPENDENCIES:
   - Alamofire (~> 3.4)
+  - google-cast-sdk
 
 SPEC CHECKSUMS:
-  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  google-cast-sdk: de04dc1edf2eececd00716044399e0715bdbddf6
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 1747f3bf0dc2badc17f076871faf04ea8bd2d557
+
+COCOAPODS: 1.0.1
