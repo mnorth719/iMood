@@ -26,21 +26,21 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func cameraButtonPushed(sender: AnyObject) {
-        let imageSourceController: IMImageSourceAlertController = IMImageSourceAlertController(title: "Choose option:", message: nil, preferredStyle: .ActionSheet)
+    @IBAction func cameraButtonPushed(_ sender: AnyObject) {
+        let imageSourceController: IMImageSourceAlertController = IMImageSourceAlertController(title: "Choose option:", message: nil, preferredStyle: .actionSheet)
         let senderView = sender as! UIView
         imageSourceController.show(self, animated: true, inView: senderView.superview, fromRect: senderView.frame)
     }
     
     
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingImage image: UIImage, editingInfo: [String : AnyObject]?) {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingImage image: UIImage, editingInfo: [String : AnyObject]?) {
         faceImage.image = image
-        noPhotoSelectedLabel.hidden = true
-        selectedImage.contentMode = .ScaleAspectFit
+        noPhotoSelectedLabel.isHidden = true
+        selectedImage.contentMode = .scaleAspectFit
         selectedImage.image = image
         faceImage.rawImageData = UIImageJPEGRepresentation(image, 0.0)
         
-        picker .dismissViewControllerAnimated(true, completion: nil)
+        picker .dismiss(animated: true, completion: nil)
         
         //make call to MS
         // Mock this for now
@@ -48,18 +48,18 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             
             self.faces = faceArray
             //Bind this to ViewModel some how. 
-            self .performSegueWithIdentifier("imageDetailControllerSegue", sender: self)
+            self .performSegue(withIdentifier: "imageDetailControllerSegue", sender: self)
         }
     }
     
-    func imagePickerControllerDidCancel(picker: UIImagePickerController) {
-        picker.dismissViewControllerAnimated(true) { () -> Void in
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        picker.dismiss(animated: true) { () -> Void in
         }
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier == "imageDetailControllerSegue") {
-            let destination: IMFaceDetailsController = segue.destinationViewController as! IMFaceDetailsController
+            let destination: IMFaceDetailsController = segue.destination as! IMFaceDetailsController
             destination.faces = self.faces
         }
     }

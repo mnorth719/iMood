@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="crk-Ij-Vce">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="crk-Ij-Vce">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -31,14 +32,14 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tbu-IX-40d">
-                                <rect key="frame" x="0.0" y="64" width="600" height="419"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tbu-IX-40d">
+                                <frame key="frameInset" minY="64" width="600" height="419"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCa-1Y-LD2">
-                                <rect key="frame" x="255" y="496" width="90" height="90"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCa-1Y-LD2">
+                                <frame key="frameInset" minX="255" minY="496" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="bfx-DV-hjY"/>
                                     <constraint firstAttribute="height" constant="90" id="cfN-id-F57"/>
@@ -48,18 +49,18 @@
                                     <action selector="cameraButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2It-7k-u2h"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No photo selected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="A5d-BG-I3G">
-                                <rect key="frame" x="154" y="198" width="292" height="88"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="No photo selected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="A5d-BG-I3G">
+                                <frame key="frameInset" minX="154" minY="198" width="292" height="88"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="292" id="a7A-Qs-XnL"/>
                                     <constraint firstAttribute="height" constant="88" id="kpG-H3-O7M"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="26"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="highlightedColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.70237936948143664" green="0.91620555383738367" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.70237936948143664" green="0.91620555383738367" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tbu-IX-40d" secondAttribute="bottom" constant="117" id="AIh-57-2h2"/>
                             <constraint firstAttribute="bottom" secondItem="hCa-1Y-LD2" secondAttribute="bottom" constant="14" id="BUa-iw-lGl"/>
@@ -93,23 +94,23 @@
                         <viewControllerLayoutGuide type="bottom" id="4MA-7C-C8o"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hLA-jP-Y7t">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KEk-tq-CyW" customClass="IMFaceImageView" customModule="iMood" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="64" width="600" height="419"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KEk-tq-CyW" customClass="IMFaceImageView" customModule="iMood" customModuleProvider="target">
+                                <frame key="frameInset" minY="64" width="600" height="419"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ECc-xN-CWg" customClass="IMMoodView" customModule="iMood" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="484" width="600" height="116"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ECc-xN-CWg" customClass="IMMoodView" customModule="iMood" customModuleProvider="target">
+                                <frame key="frameInset" minY="484" width="600" height="116"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Q3S-Rt-PfB">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="116"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Q3S-Rt-PfB">
+                                        <frame key="frameInset" width="600" height="116"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGJ-Am-G5o">
-                                        <rect key="frame" x="268" y="78" width="64" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGJ-Am-G5o">
+                                        <frame key="frameInset" minX="268" minY="78" width="64" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="64" id="MgC-Fq-Ljy"/>
                                             <constraint firstAttribute="height" constant="30" id="yDU-uD-6BQ"/>
@@ -120,7 +121,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="eGJ-Am-G5o" firstAttribute="centerX" secondItem="ECc-xN-CWg" secondAttribute="centerX" id="JCf-fM-GAP"/>
                                     <constraint firstAttribute="trailing" secondItem="Q3S-Rt-PfB" secondAttribute="trailing" id="KPE-gy-OBe"/>
@@ -132,7 +133,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.70237936950000002" green="0.91620555380000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.70237936950000002" green="0.91620555380000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ECc-xN-CWg" firstAttribute="leading" secondItem="hLA-jP-Y7t" secondAttribute="leading" id="Cpn-C0-5I0"/>
                             <constraint firstAttribute="trailing" secondItem="KEk-tq-CyW" secondAttribute="trailing" id="L2F-5U-hsZ"/>

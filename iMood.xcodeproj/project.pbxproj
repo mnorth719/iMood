@@ -22,7 +22,6 @@
 		2278ACA21CE2CECF00E3AFF4 /* IMHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278ACA11CE2CECF00E3AFF4 /* IMHttpClient.swift */; };
 		2278ACA71CE3063000E3AFF4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2278ACA61CE3063000E3AFF4 /* Alamofire.framework */; };
 		22A5D6AE1CF7A3C500E77A5A /* IMMoodImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5D6AD1CF7A3C500E77A5A /* IMMoodImage.swift */; };
-		22BE6D641D3C779F00FDBF67 /* MCCastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BE6D631D3C779F00FDBF67 /* MCCastManager.swift */; };
 		22D85E311CD7FAD600F49A5B /* IMFaceImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D85E301CD7FAD600F49A5B /* IMFaceImageView.swift */; };
 		22D85E331CD7FAED00F49A5B /* IMMoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D85E321CD7FAED00F49A5B /* IMMoodView.swift */; };
 		E0E13A4E59D1B30CA6051FFE /* Pods_iMood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF35B0D3A05C5915177C53C /* Pods_iMood.framework */; };
@@ -59,7 +58,6 @@
 		2278ACA11CE2CECF00E3AFF4 /* IMHttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMHttpClient.swift; sourceTree = "<group>"; };
 		2278ACA61CE3063000E3AFF4 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
 		22A5D6AD1CF7A3C500E77A5A /* IMMoodImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMMoodImage.swift; sourceTree = "<group>"; };
-		22BE6D631D3C779F00FDBF67 /* MCCastManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCCastManager.swift; sourceTree = "<group>"; };
 		22D85E301CD7FAD600F49A5B /* IMFaceImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMFaceImageView.swift; sourceTree = "<group>"; };
 		22D85E321CD7FAED00F49A5B /* IMMoodView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMMoodView.swift; sourceTree = "<group>"; };
 		364FE02CAD0F35FE5189F493 /* Pods-iMood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMood.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMood/Pods-iMood.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,20 +143,11 @@
 		22775B101CBB1F6800225BEF /* Utli */ = {
 			isa = PBXGroup;
 			children = (
-				22ACC6531D3356E000F57D17 /* Casting */,
 				22775B131CBB214800225BEF /* IMWebService.swift */,
 				22775B151CBB219B00225BEF /* EmotionService.swift */,
 				2278ACA11CE2CECF00E3AFF4 /* IMHttpClient.swift */,
 			);
 			name = Utli;
-			sourceTree = "<group>";
-		};
-		22ACC6531D3356E000F57D17 /* Casting */ = {
-			isa = PBXGroup;
-			children = (
-				22BE6D631D3C779F00FDBF67 /* MCCastManager.swift */,
-			);
-			name = Casting;
 			sourceTree = "<group>";
 		};
 		22D85E2F1CD7FAA900F49A5B /* Views */ = {
@@ -220,12 +209,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Matt  North";
 				TargetAttributes = {
 					22775AF91CBB1F2E00225BEF = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 44HQ3QUPFJ;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -289,7 +279,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		BBF9FD77E8C1DEADB3AB7FE6 /* [CP] Embed Pods Frameworks */ = {
@@ -322,7 +312,6 @@
 				22A5D6AE1CF7A3C500E77A5A /* IMMoodImage.swift in Sources */,
 				22D85E311CD7FAD600F49A5B /* IMFaceImageView.swift in Sources */,
 				224B32791CBE10AD0036A7A1 /* IMFaceDetailsController.swift in Sources */,
-				22BE6D641D3C779F00FDBF67 /* MCCastManager.swift in Sources */,
 				226550291CBCD5AF00844D76 /* IMImageSourceAlertController.swift in Sources */,
 				22775AFE1CBB1F2E00225BEF /* AppDelegate.swift in Sources */,
 				22775B161CBB219B00225BEF /* EmotionService.swift in Sources */,
@@ -364,8 +353,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -409,8 +400,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -429,6 +422,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -451,6 +445,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -471,6 +466,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

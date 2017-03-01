@@ -22,10 +22,10 @@ struct Emotion {
 class IMFace {
     var emotion:Emotion?
     var faceImage: UIImage?
-    var rawData: NSData?
+    var rawData: Data?
     var faceRectangle: CGRect?
     
-    func buildEmotionFromDictionary(dicitonary: NSDictionary) -> Emotion {
+    func buildEmotionFromDictionary(_ dicitonary: NSDictionary) -> Emotion {
         var emotionToBuild = Emotion()
         emotionToBuild.anger = (dicitonary["anger"] as? Float)!
         emotionToBuild.contempt = (dicitonary["contempt"] as? Float)!
@@ -39,13 +39,13 @@ class IMFace {
         return emotionToBuild
     }
     
-    func buildRectFromDictionary(dictionary: NSDictionary) -> CGRect {
-        let x = dictionary["left"]?.floatValue
-        let y = dictionary["top"]?.floatValue
-        let width = dictionary["width"]?.floatValue
-        let height = dictionary["height"]?.floatValue
+    func buildRectFromDictionary(_ dictionary: NSDictionary) -> CGRect {
+        let x = (dictionary["left"] as AnyObject).floatValue
+        let y = (dictionary["top"] as AnyObject).floatValue
+        let width = (dictionary["width"] as AnyObject).floatValue
+        let height = (dictionary["height"] as AnyObject).floatValue
         
-        return CGRectMake(CGFloat(x!), CGFloat(y!), CGFloat(width!), CGFloat(height!));
+        return CGRect(x: CGFloat(x!), y: CGFloat(y!), width: CGFloat(width!), height: CGFloat(height!));
     }
 
 }
